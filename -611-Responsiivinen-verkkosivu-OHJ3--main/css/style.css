@@ -3,7 +3,9 @@
 :root {
     --teksti: #333333;
     --tausta: #eeeeee;
-
+    --teksti-vaalea: #dddddd;
+    --bg-dark: #444444;
+    --highlight: #87af19;
 }
 
 * {
