@@ -30,7 +30,14 @@ section {
     width: 70%;
     margin: 20px auto;
 }
-
+/* footer */
+footer {
+    background-color: var(--bg-dark);
+    color: var(--teksti-vaalea);
+    padding: 40px 0;
+    text-align: center;
+}
+/*header*/
 header {
     background-color: var(#555555);
     color: var(--tausta);
