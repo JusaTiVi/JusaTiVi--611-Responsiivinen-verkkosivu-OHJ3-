@@ -30,6 +30,20 @@ section {
     width: 70%;
     margin: 20px auto;
 }
+/* ruudukko */
+.ruudukko {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 0.9em;
+
+}
+
+.ruudukko h3 {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+
 /* footer */
 footer {
     background-color: var(--bg-dark);
@@ -37,7 +51,7 @@ footer {
     padding: 40px 0;
     text-align: center;
 }
-/*header*/
+/* header */
 header {
     background-color: var(#555555);
     color: var(--tausta);
