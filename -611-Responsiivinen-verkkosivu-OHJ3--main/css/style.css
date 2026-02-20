@@ -62,3 +62,7 @@ header {
     top: 0%;
     border-bottom: var(#543043) solid 5px;
 }
+
+.tumma {
+    background-color: var(--bg-dark);
+}
