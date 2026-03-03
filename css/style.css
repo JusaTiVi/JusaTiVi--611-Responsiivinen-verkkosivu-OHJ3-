@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 :root {
-    --teksti: #333333;
-    --tausta: #eeeeee;
+    --teksti: #240000;
+    --tausta: #ffe9fa;
     --teksti-vaalea: #dddddd;
     --bg-dark: #444444;
-    --highlight: #87af19;
+    --highlight:#1dd6eb;
 }
 
 * {
@@ -30,19 +30,6 @@ section {
     width: 70%;
     margin: 20px auto;
 }
-/* ruudukko */
-.ruudukko {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    font-size: 0.9em;
-
-}
-
-.ruudukko h3 {
-    text-align: center;
-    border: 1px solid black;
-    padding: 10px;
-}
 
 /* footer */
 footer {
@@ -50,19 +37,43 @@ footer {
     color: var(--teksti-vaalea);
     padding: 40px 0;
     text-align: center;
+    border-top: var(--highlight) solid 5px;
 }
 /* header */
 header {
-    background-color: var(#555555);
+    background-color: var(--bg-dark);
     color: var(--tausta);
     padding: 10px;
-    height: 100px;
+    height: 78px;
     position: fixed;
     width: 100%;
     top: 0%;
-    border-bottom: var(#543043) solid 5px;
+    border-bottom: var(--highlight) solid 5px;
 }
 
+header .logo {
+    float: right;
+    font-size: 1em;
+}
+
+header .logo img {
+    height: 65px;
+    padding: 5px;
+    display: block;
+    float: right;
+}
+
+header nav a {
+    display: inline-block;
+    color:var(--highlight);
+    font-size: 1.2em;
+    padding: 0px 5px;
+}
+
+header nav a:hover{
+    color:#dc04ce;
+    background-color: var(--highlight);
+}
 .tumma {
     background-color: var(--bg-dark);
 }
