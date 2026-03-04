@@ -12,17 +12,25 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height:100%;
+}
+
 body {
     margin: 0;
+    margin-top: 78px;
     padding: 0;
     font-family: 'Lato', sans-serif;
     background-color: var(--tausta);
     color: var(--teksti);
+    display: flex;
+    flex-direction: column;
 }
 
 main {
     font-size: 1.1em;
     line-height: 1.3m;
+    flex: 1 0 auto;
 }
 
 section {
@@ -38,6 +46,9 @@ footer {
     padding: 40px 0;
     text-align: center;
     border-top: var(--highlight) solid 5px;
+    flex-shrink: 0;
+    bottom: 0;
+    width: 100%;
 }
 /* header */
 header {
